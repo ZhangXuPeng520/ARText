@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C78173731F19A995004935D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78173721F19A995004935D7 /* AppDelegate.swift */; };
+		C78173751F19A995004935D7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C78173741F19A995004935D7 /* art.scnassets */; };
+		C78173771F19A995004935D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78173761F19A995004935D7 /* ViewController.swift */; };
+		C781737A1F19A995004935D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78173781F19A995004935D7 /* Main.storyboard */; };
+		C781737C1F19A995004935D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C781737B1F19A995004935D7 /* Assets.xcassets */; };
+		C781737F1F19A995004935D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C781737D1F19A995004935D7 /* LaunchScreen.storyboard */; };
+		C781738A1F19A996004935D7 /* myfristARTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78173891F19A996004935D7 /* myfristARTextTests.swift */; };
+		C78173951F19A996004935D7 /* myfristARTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78173941F19A996004935D7 /* myfristARTextUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C78173861F19A996004935D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78173671F19A993004935D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C781736E1F19A994004935D7;
+			remoteInfo = myfristARText;
+		};
+		C78173911F19A996004935D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78173671F19A993004935D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C781736E1F19A994004935D7;
+			remoteInfo = myfristARText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C781736F1F19A994004935D7 /* myfristARText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myfristARText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78173721F19A995004935D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C78173741F19A995004935D7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		C78173761F19A995004935D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C78173791F19A995004935D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C781737B1F19A995004935D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C781737E1F19A995004935D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C78173801F19A995004935D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78173851F19A996004935D7 /* myfristARTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myfristARTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78173891F19A996004935D7 /* myfristARTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfristARTextTests.swift; sourceTree = "<group>"; };
+		C781738B1F19A996004935D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78173901F19A996004935D7 /* myfristARTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myfristARTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78173941F19A996004935D7 /* myfristARTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfristARTextUITests.swift; sourceTree = "<group>"; };
+		C78173961F19A996004935D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C781736C1F19A994004935D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78173821F19A996004935D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C781738D1F19A996004935D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78173661F19A992004935D7 = {
+			isa = PBXGroup;
+			children = (
+				C78173711F19A994004935D7 /* myfristARText */,
+				C78173881F19A996004935D7 /* myfristARTextTests */,
+				C78173931F19A996004935D7 /* myfristARTextUITests */,
+				C78173701F19A994004935D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78173701F19A994004935D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C781736F1F19A994004935D7 /* myfristARText.app */,
+				C78173851F19A996004935D7 /* myfristARTextTests.xctest */,
+				C78173901F19A996004935D7 /* myfristARTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78173711F19A994004935D7 /* myfristARText */ = {
+			isa = PBXGroup;
+			children = (
+				C78173721F19A995004935D7 /* AppDelegate.swift */,
+				C78173741F19A995004935D7 /* art.scnassets */,
+				C78173761F19A995004935D7 /* ViewController.swift */,
+				C78173781F19A995004935D7 /* Main.storyboard */,
+				C781737B1F19A995004935D7 /* Assets.xcassets */,
+				C781737D1F19A995004935D7 /* LaunchScreen.storyboard */,
+				C78173801F19A995004935D7 /* Info.plist */,
+			);
+			path = myfristARText;
+			sourceTree = "<group>";
+		};
+		C78173881F19A996004935D7 /* myfristARTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				C78173891F19A996004935D7 /* myfristARTextTests.swift */,
+				C781738B1F19A996004935D7 /* Info.plist */,
+			);
+			path = myfristARTextTests;
+			sourceTree = "<group>";
+		};
+		C78173931F19A996004935D7 /* myfristARTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C78173941F19A996004935D7 /* myfristARTextUITests.swift */,
+				C78173961F19A996004935D7 /* Info.plist */,
+			);
+			path = myfristARTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C781736E1F19A994004935D7 /* myfristARText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78173991F19A996004935D7 /* Build configuration list for PBXNativeTarget "myfristARText" */;
+			buildPhases = (
+				C781736B1F19A994004935D7 /* Sources */,
+				C781736C1F19A994004935D7 /* Frameworks */,
+				C781736D1F19A994004935D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myfristARText;
+			productName = myfristARText;
+			productReference = C781736F1F19A994004935D7 /* myfristARText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C78173841F19A996004935D7 /* myfristARTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C781739C1F19A996004935D7 /* Build configuration list for PBXNativeTarget "myfristARTextTests" */;
+			buildPhases = (
+				C78173811F19A996004935D7 /* Sources */,
+				C78173821F19A996004935D7 /* Frameworks */,
+				C78173831F19A996004935D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78173871F19A996004935D7 /* PBXTargetDependency */,
+			);
+			name = myfristARTextTests;
+			productName = myfristARTextTests;
+			productReference = C78173851F19A996004935D7 /* myfristARTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C781738F1F19A996004935D7 /* myfristARTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C781739F1F19A996004935D7 /* Build configuration list for PBXNativeTarget "myfristARTextUITests" */;
+			buildPhases = (
+				C781738C1F19A996004935D7 /* Sources */,
+				C781738D1F19A996004935D7 /* Frameworks */,
+				C781738E1F19A996004935D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78173921F19A996004935D7 /* PBXTargetDependency */,
+			);
+			name = myfristARTextUITests;
+			productName = myfristARTextUITests;
+			productReference = C78173901F19A996004935D7 /* myfristARTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78173671F19A993004935D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = zxp;
+				TargetAttributes = {
+					C781736E1F19A994004935D7 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					C78173841F19A996004935D7 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = C781736E1F19A994004935D7;
+					};
+					C781738F1F19A996004935D7 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = C781736E1F19A994004935D7;
+					};
+				};
+			};
+			buildConfigurationList = C781736A1F19A993004935D7 /* Build configuration list for PBXProject "myfristARText" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C78173661F19A992004935D7;
+			productRefGroup = C78173701F19A994004935D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C781736E1F19A994004935D7 /* myfristARText */,
+				C78173841F19A996004935D7 /* myfristARTextTests */,
+				C781738F1F19A996004935D7 /* myfristARTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C781736D1F19A994004935D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78173751F19A995004935D7 /* art.scnassets in Resources */,
+				C781737F1F19A995004935D7 /* LaunchScreen.storyboard in Resources */,
+				C781737C1F19A995004935D7 /* Assets.xcassets in Resources */,
+				C781737A1F19A995004935D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78173831F19A996004935D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C781738E1F19A996004935D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C781736B1F19A994004935D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78173771F19A995004935D7 /* ViewController.swift in Sources */,
+				C78173731F19A995004935D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78173811F19A996004935D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C781738A1F19A996004935D7 /* myfristARTextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C781738C1F19A996004935D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78173951F19A996004935D7 /* myfristARTextUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C78173871F19A996004935D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C781736E1F19A994004935D7 /* myfristARText */;
+			targetProxy = C78173861F19A996004935D7 /* PBXContainerItemProxy */;
+		};
+		C78173921F19A996004935D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C781736E1F19A994004935D7 /* myfristARText */;
+			targetProxy = C78173911F19A996004935D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C78173781F19A995004935D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78173791F19A995004935D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C781737D1F19A995004935D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C781737E1F19A995004935D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C78173971F19A996004935D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C78173981F19A996004935D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C781739A1F19A996004935D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myfristARText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxupeng.myfristARText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C781739B1F19A996004935D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myfristARText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxupeng.myfristARText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C781739D1F19A996004935D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myfristARTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxupeng.myfristARTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myfristARText.app/myfristARText";
+			};
+			name = Debug;
+		};
+		C781739E1F19A996004935D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myfristARTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxupeng.myfristARTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myfristARText.app/myfristARText";
+			};
+			name = Release;
+		};
+		C78173A01F19A996004935D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = myfristARTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxupeng.myfristARTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myfristARText;
+			};
+			name = Debug;
+		};
+		C78173A11F19A996004935D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = myfristARTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxupeng.myfristARTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myfristARText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C781736A1F19A993004935D7 /* Build configuration list for PBXProject "myfristARText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78173971F19A996004935D7 /* Debug */,
+				C78173981F19A996004935D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78173991F19A996004935D7 /* Build configuration list for PBXNativeTarget "myfristARText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C781739A1F19A996004935D7 /* Debug */,
+				C781739B1F19A996004935D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C781739C1F19A996004935D7 /* Build configuration list for PBXNativeTarget "myfristARTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C781739D1F19A996004935D7 /* Debug */,
+				C781739E1F19A996004935D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C781739F1F19A996004935D7 /* Build configuration list for PBXNativeTarget "myfristARTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78173A01F19A996004935D7 /* Debug */,
+				C78173A11F19A996004935D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78173671F19A993004935D7 /* Project object */;
+}
